@@ -8,7 +8,7 @@
     </head>
     <body>
         <form action="..." method="POST" >
-        <h1>Form 관려요소</h1>
+        <h1>Form 관련요소</h1>
         <fieldset>
             <legend>기본정보</legend>
             <label for="userid">아이디: </label> 
