@@ -6,9 +6,9 @@
     </head>
     <body>
         <form action="..." method="POST" >
-        <h1>Form 관련요소</h1>
+        <h1><strong>Form 관련요소</strong></h1>
         <fieldset>
-            <legend>기본정보</legend>
+            <legend><h3><strong>기본정보</strong></h3></legend>
             <label for="userid">아이디: </label> 
             <input type="text" placeholder="영문으로만 써주세요." id="userid"> <br>
     
@@ -22,23 +22,19 @@
 
         </fieldset>
         <fieldset>
-            <legend>부가정보</legend>
-            취미: 축구 <input type="chechbox" name="hobby"> 농구 <input type="chechbox" name="hobby">  
-            야구 <input type="chechbox" name="hobby"> <br> 
+            <legend><h3><b>부가정보</b></h3></legend>
+            취미: <input type="text"> <br> <br>
             프로필 사진 업로드 : <input type="file"> <br>
-            <input type="button" value="assign"> <br>
-            <input type="image" src="" alt="" width="" height=""> 
+            <input type="button" value="등록"> <br> <br>
             사는지역: <select>
-                <option>Seoul</option>
+                <option selected>Seoul</option>
                 <option>Busan</option>
-                <option selected>Bucheon</option>
-            </select> <br>
-            자기소개: <textarea cols="30" rows="5"></textarea> <br>
+                <option>Bucheon</option>
+            </select> <br> <br>
+            자기소개 <br>
+            <textarea cols="30" rows="5"></textarea> <br>
             <button type="submit">전송</button> <br>
             <button type="reset">취소</button> <br>
-            <input type="submit" value="send"> <br>
-            <input type="reset" value="cancel"> <br>
-    
         </fieldset>
         </form>
     </body>
